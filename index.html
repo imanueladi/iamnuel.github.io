@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Imanuel Adi Condro | Designer &amp; Video Editor</title>
+  <meta name="description" content="Portfolio Imanuel Adi Condro, desainer grafis dan video editor.">
+
+  <!-- Aktifkan state animasi hanya kalau JavaScript berjalan -->
+  <script>document.documentElement.classList.add('js');</script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+  <!-- ============ FRAME 1 : HERO ============ -->
+  <header class="hero" id="home">
+    <nav class="nav" aria-label="Navigasi utama">
+      <a class="nav__link" href="#creative">Project</a>
+      <a class="nav__link" href="#contact">Contact</a>
+      <a class="nav__link" href="#about">About</a>
+    </nav>
+
+    <div class="hero__stage">
+      <h1 class="hero__title" aria-label="Welcome to my page">
+        <span class="mask"><span class="word word--welcome" aria-hidden="true">Welcome</span></span>
+        <span class="hero__row" aria-hidden="true">
+          <span class="mask"><span class="word word--my">My</span></span>
+          <span class="hero__stack">
+            <span class="mask"><span class="word word--to">To</span></span>
+            <span class="mask"><span class="word word--page">Page</span></span>
+          </span>
+        </span>
+      </h1>
+
+      <div class="face" id="face">
+        <div class="face__glow" aria-hidden="true"></div>
+        <div class="face__tilt">
+          <img class="face__img" src="assets/img/face.png" alt="Wajah Imanuel Adi Condro" width="281" height="428" draggable="false">
+        </div>
+      </div>
+
+      <ul class="hero__roles">
+        <li style="--ml:.75em"><a href="#creative">Video Editor</a></li>
+        <li style="--ml:1.8em"><a href="#creative">Graphic Design</a></li>
+        <li style="--ml:2.6em"><a href="#creative">Motion Visual</a></li>
+        <li style="--ml:4.3em"><a href="#creative">Visual Art</a></li>
+        <li style="--ml:1.3em"><a href="#creative">Brand Design</a></li>
+        <li style="--ml:0em"><a href="#creative">Web Design</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ============ FRAME 2 : ABOUT ============ -->
+    <section class="about" id="about" data-reveal>
+      <h2 class="about__title">About Me</h2>
+
+      <div class="about__card">
+        <div class="about__text">
+          <p>
+          Hey, I'm Imanuel Adi Condro — a designer and video editor passionate about creating clean, impactful, and purposeful visuals.
+          I work with Adobe Photoshop, Illustrator, Premiere Pro, After Effects, and Figma to bring ideas to life through graphic design, 
+          illustration, UI design, video editing, and motion graphics.
+          For me, great design is more than just looking good — it's about telling a story, delivering the right message, and making 
+          a real impact. That's why I take the time to understand each client's needs and project goals before getting started, making sure every 
+          piece of work looks great and serves a purpose.
+          </p>
+        </div>
+
+        <div class="about__tools" aria-label="Software yang saya gunakan">
+          <span class="tool tool--ai" style="--r:-20deg;--d:0s"  title="Adobe Illustrator"><b>Ai</b></span>
+          <span class="tool tool--pr" style="--r:22deg;--d:.12s" title="Adobe Premiere Pro"><b>Pr</b></span>
+          <span class="tool tool--fg" style="--r:8deg;--d:.24s"  title="Figma">
+            <svg viewBox="0 0 38 57" aria-hidden="true">
+              <path d="M19 28.5a9.5 9.5 0 1 1 19 0 9.5 9.5 0 0 1-19 0z" fill="#1abcfe"/>
+              <path d="M0 47.5A9.5 9.5 0 0 1 9.5 38H19v9.5a9.5 9.5 0 1 1-19 0z" fill="#0acf83"/>
+              <path d="M19 0v19h9.5a9.5 9.5 0 1 0 0-19H19z" fill="#ff7262"/>
+              <path d="M0 9.5A9.5 9.5 0 0 0 9.5 19H19V0H9.5A9.5 9.5 0 0 0 0 9.5z" fill="#f24e1e"/>
+              <path d="M0 28.5A9.5 9.5 0 0 0 9.5 38H19V19H9.5A9.5 9.5 0 0 0 0 28.5z" fill="#a259ff"/>
+            </svg>
+          </span>
+          <span class="tool tool--ps" style="--r:14deg;--d:.36s"  title="Adobe Photoshop"><b>Ps</b></span>
+          <span class="tool tool--ae" style="--r:12deg;--d:.48s"  title="Adobe After Effects"><b>Ae</b></span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ FRAME 3 : CREATIVE WORK'S ============ -->
+    <section class="creative" id="creative" data-reveal>
+      <h2 class="creative__title" aria-label="Creative Work's">
+        <span class="mask"><span class="creative__a">Creative</span></span>
+        <span class="mask"><span class="creative__b">Work&rsquo;s</span></span>
+      </h2>
+
+      <!-- Gradient emas dipakai bersama oleh ketiga folder -->
+      <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+        <defs>
+          <linearGradient id="goldFront" x1="0" y1="1" x2="1" y2="0">
+            <stop offset="0" stop-color="#ffdf9e"/>
+            <stop offset=".55" stop-color="#e2b865"/>
+            <stop offset="1" stop-color="#cfa650"/>
+          </linearGradient>
+          <linearGradient id="goldBack" x1="0" y1="0" x2="1" y2="1">
+            <stop offset="0" stop-color="#b8975a"/>
+            <stop offset="1" stop-color="#e0bf7c"/>
+          </linearGradient>
+        </defs>
+      </svg>
+
+      <div class="folders">
+        <a class="folder" href="#projects"   data-label="Work 1" aria-label="Lihat Work 1">
+          <svg viewBox="0 0 200 190" aria-hidden="true">
+            <path class="folder__back" fill="url(#goldBack)" d="M8 28Q8 10 26 10H78Q94 10 104 19L112 26H172Q192 26 192 46V160Q192 180 172 180H28Q8 180 8 160Z"/>
+            <g class="folder__paper">
+              <path fill="#fff" d="M22 34Q22 26 32 26H160Q176 26 176 42V130H22Z"/>
+              <path fill="#ececec" d="M22 58Q60 46 100 58T176 56V70Q140 80 100 70T22 72Z"/>
+            </g>
+            <path class="folder__front" fill="url(#goldFront)" d="M8 72Q8 54 26 54H72Q90 54 108 62T150 66H178Q196 66 196 84V162Q196 184 174 184H30Q8 184 8 162Z"/>
+          </svg>
+          <span class="folder__label">Work 1</span>
+        </a>
+
+        <a class="folder" href="#projects-2" data-label="Work 2" aria-label="Lihat Work 2">
+          <svg viewBox="0 0 200 190" aria-hidden="true">
+            <path class="folder__back" fill="url(#goldBack)" d="M8 28Q8 10 26 10H78Q94 10 104 19L112 26H172Q192 26 192 46V160Q192 180 172 180H28Q8 180 8 160Z"/>
+            <g class="folder__paper">
+              <path fill="#fff" d="M22 34Q22 26 32 26H160Q176 26 176 42V130H22Z"/>
+              <path fill="#ececec" d="M22 58Q60 46 100 58T176 56V70Q140 80 100 70T22 72Z"/>
+            </g>
+            <path class="folder__front" fill="url(#goldFront)" d="M8 72Q8 54 26 54H72Q90 54 108 62T150 66H178Q196 66 196 84V162Q196 184 174 184H30Q8 184 8 162Z"/>
+          </svg>
+          <span class="folder__label">Work 2</span>
+        </a>
+
+        <a class="folder" href="#projects-3" data-label="Work 2" aria-label="Lihat Work 3">
+          <svg viewBox="0 0 200 190" aria-hidden="true">
+            <path class="folder__back" fill="url(#goldBack)" d="M8 28Q8 10 26 10H78Q94 10 104 19L112 26H172Q192 26 192 46V160Q192 180 172 180H28Q8 180 8 160Z"/>
+            <g class="folder__paper">
+              <path fill="#fff" d="M22 34Q22 26 32 26H160Q176 26 176 42V130H22Z"/>
+              <path fill="#ececec" d="M22 58Q60 46 100 58T176 56V70Q140 80 100 70T22 72Z"/>
+            </g>
+            <path class="folder__front" fill="url(#goldFront)" d="M8 72Q8 54 26 54H72Q90 54 108 62T150 66H178Q196 66 196 84V162Q196 184 174 184H30Q8 184 8 162Z"/>
+          </svg>
+          <span class="folder__label">Work 3</span>
+        </a>
+      </div>
+    </section>
+
+    <!-- ============ FRAME 4 : PROJECT CARDS Work 1 ============ -->
+    <section class="projects" id="projects" aria-label="Project">
+            <div class="cards">
+        <div class="" style="--lift:5.4vw">
+          <div class="card">
+            <a class="card__face" href="assets/img/Gorilla.png" target="_blank" rel="noopener" aria-label="Lihat Gorilla">
+              <img src="assets/img/Gorilla.png" alt="Gorilla raksasa dan Ford Raptor" style="object-position:50% 50%" loading="lazy" decoding="async" draggable="false">
+              <span class="card__shine"></span>
+            </a>
+          </div>
+        </div>
+
+        <div class="card-slot" style="--lift:0vw">
+          <div class="card">
+            <a class="card__face" href="assets/img/Black Panther.png" target="_blank" rel="noopener" aria-label="Lihat Black Panther">
+              <img src="assets/img/Black Panther.png" alt="Poster Black Panther" style="object-position:60% 50%" loading="lazy" decoding="async" draggable="false">
+              <span class="card__shine"></span>
+            </a>
+          </div>
+        </div>
+
+        <div class="card-slot" style="--lift:5.4vw">
+          <div class="card">
+            <a class="card__face" href="assets/img/Leon.png" target="_blank" rel="noopener" aria-label="Lihat Leon">
+              <img src="assets/img/Leon.png" alt="Leon di depan mansion" style="object-position:15% 50%" loading="lazy" decoding="async" draggable="false">
+              <span class="card__shine"></span>
+            </a>
+          </div>
+        </div>
+
+        <div class="card-slot" style="--lift:3.6vw">
+          <div class="card">
+            <a class="card__face" href="assets/img/Travis Nike.png" target="_blank" rel="noopener" aria-label="Lihat Travis dan sepatu Nike">
+              <img src="assets/img/Travis Nike.png" alt="Sepatu raksasa di atas kota" style="object-position:25% 50%" loading="lazy" decoding="async" draggable="false">
+              <span class="card__shine"></span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+        <!-- ============ JUDUL : VISUAL ART ============ -->
+    <div class="section-title" data-reveal>
+      <h2 class="section-title__text" aria-label="Visual Art">
+        <span class="mask"><span class="section-title__inner" aria-hidden="true">Visual Art</span></span>
+      </h2>
+    </div>
+
+
+    <!-- ============ FRAME 4B : WORK 2 ============ -->
+    <section class="projects projects--2" id="projects-2" aria-label="Work 2" data-reveal>
+      <div class="cards">
+        <div class="card-slot" style="--lift:5.4vw">
+          <div class="card">
+            <a class="card__face" href="assets/img/Project 3 Jordan Result.png" aria-label="Lihat Work 2 project 1">
+              <img src="assets/img/Project 3 Jordan Result.png" alt="Work 2 project 1" style="object-position:50% 50%" loading="lazy" decoding="async" draggable="false">
+              <span class="card__shine"></span>
+            </a>
+          </div>
+        </div>
+
+        <div class="card-slot" style="--lift:0vw">
+          <div class="card">
+            <a class="card__face" href="assets/img/Robert downey Result.png" aria-label="Lihat Work 2 project 2">
+              <img src="assets/img/Robert downey Result.png" alt="Work 2 project 2" style="object-position:50% 50%" loading="lazy" decoding="async" draggable="false">
+              <span class="card__shine"></span>
+            </a>
+          </div>
+        </div>
+
+        <div class="card-slot" style="--lift:5.4vw">
+          <div class="card">
+            <a class="card__face" href="assets/img/Walter On Bank.png" aria-label="Lihat Work 2 project 3">
+              <img src="assets/img/Walter On Bank.png" alt="Work 2 project 3" style="object-position:50% 50%" loading="lazy" decoding="async" draggable="false">
+              <span class="card__shine"></span>
+            </a>
+          </div>
+        </div>
+
+        <div class="card-slot" style="--lift:3.6vw">
+          <div class="card">
+            <a class="card__face" href="assets/img/Central Cee 1.jpg" aria-label="Lihat Work 2 project 4">
+              <img src="assets/img/Central Cee 1.jpg" alt="Work 2 project 4" style="object-position:50% 50%" loading="lazy" decoding="async" draggable="false">
+              <span class="card__shine"></span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+<!-- ============ FRAME 4C : WORK 3 ============ -->
+<section class="projects projects--2 projects--3" id="projects-3" aria-label="Work 3" data-reveal>
+  <div class="cards">
+
+    <!-- ===== BOX KIRI (PNG) ===== -->
+    <div class="card-slot card-slot--pop" style="--lift:5.4vw">
+      <div class="card">
+        <div class="pop" tabindex="0" role="img" aria-label="Matchabodo - kiri">
+          <div class="pop__box" style="background:linear-gradient(160deg,#fafafa 0%,#a1a39f 100%)"></div>
+          <div class="pop__stage">
+
+            <!-- 1. Daun (belakang, kanan atas) -->
+            <img class="pop__layer" src="assets/img/Daun.png" alt="" draggable="false" loading="lazy" decoding="async"
+                 style="--l:62%;--b:62%;--w:44%;--ox:14%;--oy:-35%;--os:1.05;--px:10px;--py:8px;--d:.05s">
+
+            <!-- 2. Doodle hantu outline (belakang, kiri bawah) -->
+            <img class="pop__layer" src="assets/img/Doodle.png" alt="" draggable="false" loading="lazy" decoding="async"
+                 style="--l:-15%;--b:0%;--w:85%;--ox:-3%;--oy:-5%;--os:1.02;--px:6px;--py:5px;--d:0s">
+
+            <!-- 3. Kopi (kanan bawah) -->
+            <img class="pop__layer" src="assets/img/Kopi.png" alt="" draggable="false" loading="lazy" decoding="async"
+                 style="--l:56%;--b:2%;--w:46%;--ox:10%;--oy:-12%;--os:1.06;--px:12px;--py:8px;--d:.1s">
+
+            <!-- 4. Badge MATCHA (kiri bawah) -->
+            <img class="pop__layer" src="assets/img/Matcha 2.png" alt="" draggable="false" loading="lazy" decoding="async"
+                 style="--l:-4%;--b:14%;--w:58%;--ox:-12%;--oy:-20%;--os:1.1;--px:14px;--py:10px;--d:.15s">
+
+            <!-- 5. Hantu pink (UTAMA, naik keluar lewat atas) -->
+            <img class="pop__layer" src="assets/img/Asset Pink.png" alt="" draggable="false" loading="lazy" decoding="async"
+                 style="--l:6%;--b:44%;--w:70%;--ox:0%;--oy:-22%;--os:1.06;--px:16px;--py:12px;--d:.08s">
+
+            <!-- 6. YUM! (paling depan, kanan tengah) -->
+            <img class="pop__layer" src="assets/img/Asset 10.png" alt="" draggable="false" loading="lazy" decoding="async"
+                 style="--l:68%;--b:40%;--w:32%;--ox:12%;--oy:-22%;--os:1.1;--px:18px;--py:14px;--d:.2s">
+
+          </div>
+          <span class="work-tag work-tag--below">Logo / Mascot</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- ===== VIDEO TENGAH 1 ===== -->
+      <div class="card-group">
+          <span class="work-tag work-tag--above">After Effects</span>
+
+    <div class="card-slot" style="--lift:0vw">
+      <div class="card">
+        <div class="card__face card__face--video" aria-label="Video Work 3 project 2">
+          <video src="assets/video/Tenxi.mp4" muted loop playsinline preload="metadata"></video>
+          <span class="card__shine"></span>
+        </div>
+      </div>
+    </div>
+
+    <!-- ===== VIDEO TENGAH 2 ===== -->
+    <div class="card-slot" style="--lift:5.4vw">
+      <div class="card">
+        <div class="card__face card__face--video" aria-label="Video Work 3 project 3">
+          <video src="assets/video/Indonesia 3.mp4" muted loop playsinline preload="metadata"></video>
+          <span class="card__shine"></span>
+        </div>
+      </div>
+    </div>
+    </div>
+
+    <!-- ===== BOX KANAN (PNG, sementara sama dengan kiri, tinggal ganti src) ===== -->
+    <div class="card-slot card-slot--pop" style="--lift:3.6vw">
+      <div class="card">
+        <div class="pop" tabindex="0" role="img" aria-label="Matchabodo - kanan">
+          <div class="pop__box" style="background:linear-gradient(160deg,#fafafa 0%,#a1a39f 100%)"></div>
+          <div class="pop__stage">
+
+            <img class="pop__layer" src="assets/img/Pacman 3.png" alt="" draggable="false" loading="lazy" decoding="async"
+                 style="--l:62%;--b:62%;--w:44%;--ox:14%;--oy:-35%;--os:1.05;--px:10px;--py:8px;--d:.05s">
+
+            <img class="pop__layer" src="assets/img/Pacman 2.png" alt="" draggable="false" loading="lazy" decoding="async"
+                 style="--l:-15%;--b:0%;--w:85%;--ox:-3%;--oy:-5%;--os:1.02;--px:6px;--py:5px;--d:0s">
+
+            <img class="pop__layer" src="assets/img/Pacman 1.png" alt="" draggable="false" loading="lazy" decoding="async"
+                 style="--l:56%;--b:2%;--w:46%;--ox:10%;--oy:-12%;--os:1.06;--px:12px;--py:8px;--d:.1s">
+
+            <img class="pop__layer" src="assets/img/Mock Up Gelang Lourdes22 V5.png" alt="" draggable="false" loading="lazy" decoding="async"
+                 style="--l:-4%;--b:14%;--w:58%;--ox:-12%;--oy:-20%;--os:1.1;--px:14px;--py:10px;--d:.15s">
+
+            <img class="pop__layer" src="assets/img/Mock Up Gelang Strip BiruTerang  BM.png" alt="" draggable="false" loading="lazy" decoding="async"
+                 style="--l:6%;--b:44%;--w:70%;--ox:0%;--oy:-22%;--os:1.06;--px:16px;--py:12px;--d:.08s">
+
+            <img class="pop__layer" src="assets/img/Pacman 4.png" alt="" draggable="false" loading="lazy" decoding="async"
+                 style="--l:68%;--b:40%;--w:32%;--ox:12%;--oy:-22%;--os:1.1;--px:18px;--py:14px;--d:.2s">
+
+          </div>
+          <span class="work-tag work-tag--below">PRODUCT</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+    <!-- ============ FRAME 5 : CONTACT ============ -->
+    <section class="contact" id="contact" aria-label="Kontak">
+      
+            <div class="contact__cta" data-reveal>
+        <p class="contact__eyebrow">Good ideas start somewhere.</p>
+        <h2 class="contact__title">
+          Got something in mind?
+          <span>Let&rsquo;s build the visual.</span>
+        </h2>
+        <p class="contact__sub">Design, motion, and everything in between.</p>
+        <a class="contact__btn" href="https://mail.google.com/mail/?view=cm&amp;to=imanueladi489@gmail.com" target="_blank" rel="noopener noreferrer">
+          Let&rsquo;s talk <span aria-hidden="true">&#8599;</span>
+        </a>
+      </div>
+
+      <ul class="contact__list">
+        <li>
+          <!-- GANTI link Instagram kamu di sini -->
+          <a class="social" href="https://www.instagram.com/imanuel.adic" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <rect x="2.6" y="2.6" width="18.8" height="18.8" rx="5.4" fill="none" stroke="currentColor" stroke-width="2.2"/>
+              <circle cx="12" cy="12" r="4.3" fill="none" stroke="currentColor" stroke-width="2.2"/>
+              <circle cx="17.5" cy="6.5" r="1.3" fill="currentColor"/>
+            </svg>
+            <span class="social__tip">Click me</span>
+          </a>
+        </li>
+        <li>
+          <!-- GANTI link LinkedIn kamu di sini -->
+          <a class="social" href="https://www.linkedin.com/in/imanuel-adi-c-260506292" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path fill="currentColor" d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+            </svg>
+            <span class="social__tip">Click me</span>
+          </a>
+        </li>
+        <li>
+          <!-- GANTI email kamu di bagian to=... (membuka Gmail lewat https) -->
+          <a class="social" href="https://mail.google.com/mail/?view=cm&amp;to=imanueladi489@gmail.com" target="_blank" rel="noopener noreferrer" aria-label="Email">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <defs>
+                <mask id="mailFlap">
+                  <rect width="24" height="24" fill="#fff"/>
+                  <path d="M1 7.2 12 12.8 23 7.2" fill="none" stroke="#000" stroke-width="2.6"/>
+                </mask>
+              </defs>
+              <rect x="1.5" y="4" width="21" height="16" rx="1.6" fill="currentColor" mask="url(#mailFlap)"/>
+            </svg>
+            <span class="social__tip">Click me</span>
+          </a>
+        </li>
+      </ul>
+    </section>
+
+  </main>
+
+  <button class="to-top" type="button" aria-label="Kembali ke atas">&uarr;</button>
+
+  <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Pratinjau gambar" aria-hidden="true">
+    <button class="lightbox__close" type="button" aria-label="Tutup">&times;</button>
+    <img class="lightbox__img" alt="">
+  </div>
+
+  <script src="assets/js/main.js" defer></script>
+</body>
+</html>
